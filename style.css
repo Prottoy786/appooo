@@ -1,0 +1,494 @@
+/* global section  */
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+    border: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* header section  */
+header{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+}
+.logo-part{
+    width: 33.3%;
+    float: left;
+    margin-top: 20px;
+}
+.menu-part{
+    width: 33.3%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+.menu-part li{
+    display: inline-block;
+}
+.menu-part li a{
+    padding: 10px;
+    color: white;
+
+}
+.btn-part{
+    width: 33.3%;
+    float: left;
+    margin-top: 20px;
+    text-align: end;
+}
+
+.btn-part a button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/* hero section  */
+#hero{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    color: white;
+    height: 550px;
+}
+.hero-writing-part{
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+}
+.hero-writing-part h1{
+    font-weight: 500;
+    margin-right: 200px;
+}
+.hero-writing-part p{
+    font-weight: 500;
+    font-size: 12px;
+    color: #97a4be;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.hero-box-part{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+.button-part{
+    margin-top: 20px;
+}
+.button-part a{
+    padding: 10px;
+}
+.button-part a button{
+    padding: 10px;
+    width: 25%;
+    background-color: #223047;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.button-part a button:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+.hero-box-part img{
+    height: 70%;
+}
+
+/* service section  */
+#service{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+.service-writing-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    color: #404c60;
+}
+.service-writing-part h1{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-weight: 500;
+}
+.service-box-part{
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* about section  */
+#about{
+    width: 100%;
+    float: left;
+    background-color: #f5f6fa;
+}
+.about-box-part{
+    width: 50%;
+    float: left;
+}
+.about-box-part img{
+    width: 80%;
+}
+.about-writing-part{
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+.about-writing-part h1{
+    font-weight: 500;
+    margin-right: 400px;
+    font-weight: 500;
+}
+.about-writing-part p{
+    margin-top: 30px;
+    font-weight: 500;
+    margin-right: 200px;
+    color: #ccd2df;
+    font-size: 14px;
+}
+
+/* demo section  */
+#demo{
+    width: 100%;
+    float: left;
+}
+.demo-writing-part{
+    width: 40%;
+    float: left;
+    text-align: right;
+    margin-top: 110px;
+}
+.demo-writing-part h1{
+    font-weight: 500;
+}
+.demo-writing-part p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #97a4b97a;
+    margin-top: 20px;
+}
+.demo-btn-part{
+    margin-top: 20px;
+}
+.demo-btn-part a{
+    margin-top: 20px;
+}
+.demo-btn-part a button{
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.demo-box-part{
+    width: 60%;
+    float: left;
+    margin-top: 100px;
+    
+}
+.demo-box-part img{
+    width: 80%;
+    margin-left: 50px;
+}
+
+/* demo-2 writing part  */
+#demo-2{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    
+}
+.demo-2-box-part{
+    width: 50%;
+    float: left;
+}
+.demo-2-box-part img{
+    width: 90%;
+}
+.demo-2-writing-part{
+    width: 50%;
+    float: left;
+}
+.demo-2-writing-part img{
+    width: 90%;
+}
+
+/* presentation section  */
+#presentation{
+    width: 100%;
+    float: left;
+    background-color: #f5f6fa;
+    height: 420px;
+}
+.presentation-writing-part{
+    width: 40%;
+    float: left;
+    text-align: right;
+    margin-top: 90px;
+}
+.presentation-writing-part h1{
+    font-weight: 500;
+}
+.presentation-writing-part p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.presentation-box-part{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+.presentation-box-part img{
+    width: 70%;
+    margin-left: 70px;
+}
+
+/* video section  */
+#video{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    color: #b5bac2;
+    text-align: center;
+}
+.video-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+}
+.video-box-part h1{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.video-writing-part{
+    width: 100%;
+    float: left;
+}
+.video-writing-part p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+/* download section  */
+#download{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #233148;
+}
+.download-writing-part{
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+}
+.download-writing-part h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+.download-writing-part p{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.download-btn-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.download-btn-part a button{
+    width: 15%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+/* pera section  */
+#pera{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    color: white;
+    text-align: center;
+}
+.pera-writing-part{
+    width: 100%;
+    float: left;
+}
+.pera-writing-part p{
+    font-weight: 500;
+    margin: 100px 200px;
+}
+
+/* option section  */
+#option{
+    width: 100%;
+    float: left;
+    background-color: #f5f6fa;
+    color: #233148;
+}
+.option-box-part{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+.option-box-part img{
+    width: 60%;
+}
+.option-writing-part{
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
+.option-writing-part h1{
+    font-weight: 500;
+}
+.option-writing-part p{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+.option-img-part{
+    width: 100%;
+    float: left;
+}
+.option-img-part img{
+    padding: 10px;
+}
+#button-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #f5f6fa;
+    height: 80px;
+}
+.option-button-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.option-button-part a button{
+    padding: 20px;
+    width: 20%;
+    border-style: none;
+}
+
+/* link section  */
+#link{
+    width: 100%;
+    float: left;
+}
+.link-writing-part{
+    width: 20%;
+    float: left;
+    margin-top: 100px;
+}
+.link-writing-part h1{
+    font-weight: 500;
+}
+.link-writing-part p a{
+    color: #97a4be;
+    margin-top: 5px;
+}
+#form{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #233148;
+}
+.link-form-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-writing-part{
+    width: 100%;
+    float: left;
+}
+.form-writing-part h1{
+    font-weight: 500;
+}
+.form-writing-part p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #97a4be;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.form-text-part{
+    width: 100%;
+    float: left;
+}
+.form-text-part input{
+    padding: 10px;
+    width: 50%;
+    background-color: #f5f6fa;
+    border-style: none;
+}
+.form-text-part a button{
+    padding: 10px;
+    width: 15%;
+    border-style: none;
+    
+}
+.form-text-part a{
+    margin-left: 20px;
+}
+
+/* footer section  */
+footer{
+    width: 100%;
+    float: left;
+    background-image: url(./header-background.png);
+    height: 60px;
+    color: white;
+}
+.footer-writing-part{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+.footer-writing-part p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer-icon-part{
+    width: 50%;
+    float: left;
+    text-align: end;
+    margin-top: 20px;
+}
+.footer-icon-part i {
+    padding: 10px;
+}
+
+
+
+
+
+
+
